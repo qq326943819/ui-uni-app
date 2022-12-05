@@ -1,0 +1,48 @@
+{
+  "name": "framework-uniapp-vue3",
+  "version": "1.0.0",
+  "description": "Vue3 framework of uni app platform.",
+  "author": {
+    "name": "林逸舟",
+    "email": "326943819@qq.com"
+  },
+  "scripts": {
+    "preview": "vite preview -c vite.preview.ts -d"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,vue,json,ts}": [
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^2.6.12",
+    "@dcloudio/uni-app": "^3.0.0-alpha-3050020220622003",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "@vueuse/core": "^9.5.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.20.0",
+    "lint-staged": "^10.5.4",
+    "lodash": "^4.17.21",
+    "luch-request": "^3.0.8",
+    "pinia": "^2.0.13",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.14",
+    "vite-plugin-windicss": "^1.8.4",
+    "vue": "^3.2.33",
+    "windicss": "^3.5.6",
+    "yorkie": "^2.0.0"
+  }
+}

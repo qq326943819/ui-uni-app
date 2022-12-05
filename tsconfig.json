@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "outDir": "unpackage",
+    "target": "ES6",
+    "lib": ["ESNext"],
+    "module": "ES2020",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "plugin-types.d.ts",
+    "pages/**/*.vue",
+    "components/**/*.vue",
+    "**/*"
+  ],
+  "vueCompilerOptions": {
+    "target": 3
+  }
+}

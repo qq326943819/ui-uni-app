@@ -1,0 +1,95 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index",
+      "style": {
+        "navigationBarTitleText": "MI UI"
+      }
+    },
+    {
+      "path": "pages/components",
+      "style": {
+        "navigationBarTitleText": "Components"
+      }
+    },
+    {
+      "path": "pages/templates",
+      "style": {
+        "navigationBarTitleText": "Templates"
+      }
+    },
+    {
+      "path": "pages/components/button",
+      "style": {
+        "navigationBarTitleText": "Button"
+      }
+    },
+    {
+      "path": "pages/components/navbar",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/components/overlay",
+      "style": {
+        "navigationBarTitleText": "Overlay"
+      }
+    },
+    {
+      "path": "pages/components/toast",
+      "style": {
+        "navigationBarTitleText": "Toast"
+      }
+    },
+    {
+      "path": "pages/components/modal",
+      "style": {
+        "navigationBarTitleText": "Modal"
+      }
+    },
+    {
+      "path": "pages/components/tab",
+      "style": {
+        "navigationBarTitleText": "Tab"
+      }
+    },
+    {
+      "path": "pages/components/avatar",
+      "style": {
+        "navigationBarTitleText": "Avatar"
+      }
+    },
+    {
+      "path": "pages/components/bottom-action",
+      "style": {
+        "navigationBarTitleText": "BottomAction"
+      }
+    },
+    {
+      "path": "pages/components/form",
+      "style": {
+        "navigationBarTitleText": "Form"
+      }
+    },
+    {
+      "path": "pages/components/input",
+      "style": {
+        "navigationBarTitleText": "Input"
+      }
+    },
+    {
+      "path": "pages/components/picker",
+      "style": {
+        "navigationBarTitleText": "Picker"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
