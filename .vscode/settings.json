@@ -1,6 +1,7 @@
 {
     "vue-scss-variable-scan.globalPath": "uni.scss",
     "conventionalCommits.scopes": [
-        "navbar"
+        "navbar",
+        "tab"
     ]
 }

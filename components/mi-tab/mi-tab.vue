@@ -28,7 +28,7 @@
       class="flex-1 h-full relative flex justify-center items-center"
       :class="{
         'text-primary': isActive(index),
-        'after:contents after:(contents bg-primary !block w-96rpx h-4rpx absolute bottom-0)':
+        'after:contents after:(bg-primary !block w-96rpx h-4rpx absolute bottom-0)':
           isActive(index),
       }"
       @click="emits('update:modelValue', index)"
