@@ -23,7 +23,7 @@
     <!-- title -->
     <view
       v-if="title"
-      class="title flex items-center box-border border-solid border-0 border-b border-default font-bold relative before:contents before:(w-8rpx h-40rpx bg-primary !block -ml-row absolute)"
+      class="flex items-center box-border h-104rpx leading-104rpx border-solid border-0 border-b border-default font-bold relative before:contents before:(w-8rpx h-40rpx bg-primary !block -ml-row absolute)"
     >
       {{ title }}</view
     >

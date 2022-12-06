@@ -3,6 +3,7 @@
     "conventionalCommits.scopes": [
         "navbar",
         "tab",
-        "toast"
+        "toast",
+        "form"
     ]
 }
