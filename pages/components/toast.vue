@@ -9,7 +9,7 @@
   function showToast() {
     toast.value.show({
       message: "Hello World",
-      duration: 30 * 1000,
+      duration: 3 * 1000,
     });
   }
 </script>
