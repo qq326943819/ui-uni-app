@@ -1,6 +1,6 @@
 <script lang="ts" setup>
   import { gotoPage } from "@/utils/index";
-  import { map, split, upperFirst } from "lodash";
+  import { map, split, startCase } from "lodash";
   import { computed } from "vue";
   import MiButton from "../components/mi-button/mi-button.vue";
 
@@ -26,7 +26,7 @@
       class="my-2"
       type="primary"
       @click="gotoPage(`components/${item.name}`)"
-      >{{ upperFirst(item.name) }}</MiButton
+      >{{ startCase(item.name) }}</MiButton
     >
   </view>
 </template>
