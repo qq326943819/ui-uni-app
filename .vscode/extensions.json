@@ -2,6 +2,7 @@
     "recommendations": [
         "vue.volar",
         "voorjaar.windicss-intellisense",
-        "Rain.vue-scss-variable-scan"
+        "rain.vue-scss-variable-scan",
+        "vivaxy.vscode-conventional-commits"
     ]
 }
