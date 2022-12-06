@@ -1,5 +1,5 @@
 <template>
-  <view>
+  <view class="pt-statusBar">
     <view
       class="grid grid-cols-3 h-44px fixed z-50 w-full box-border text-sm border-solid border-0 border-b border-default"
     >
