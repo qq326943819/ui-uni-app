@@ -4,6 +4,7 @@
         "navbar",
         "tab",
         "toast",
-        "form"
+        "form",
+        "search"
     ]
 }

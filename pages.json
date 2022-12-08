@@ -84,6 +84,12 @@
       "style": {
         "navigationBarTitleText": "Picker"
       }
+    },
+    {
+      "path": "pages/components/search",
+      "style": {
+        "navigationBarTitleText": "Search"
+      }
     }
   ],
   "globalStyle": {
